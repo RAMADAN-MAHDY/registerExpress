@@ -43,7 +43,7 @@ npm run dev
 ## 🛠️ اختبار الـ API
 
 ### 🔹 تسجيل مستخدم جديد
-**POST** `/api/auth/register`
+**POST** `http://localhost:3000/register`
 ```json
 {
     "name": "Ahmed",
@@ -53,7 +53,7 @@ npm run dev
 ```
 
 ### 🔹 تسجيل الدخول
-**POST** `/api/auth/login`
+**POST** `http://localhost:3000/login`
 ```json
 {
     "email": "ahmed@example.com",
